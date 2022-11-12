@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio and video</title>
+</head>
+<body>
+    <!-- audio -->
+    <audio src="./Pasoori.mp3" controls autoplay muted>Hey, Audio for FSJS 2.0</audio>
+    <!-- another way not much used the below way -->
+    <audio controls autoplay muted>
+        <source src="./Pasoori.mp3">
+    </audio>
+
+    <!-- video  -->
+    <video src="./video.mp4" controls muted>Hey Video for FSJS 2.0</video>
+    <!-- it wont load when browser is not support the audio.
+    when muted is not there in autoplay its not playing  -->
+    <!-- another way to write video but not used much  -->
+    <video controls>
+        <source src="./video.mp4">
+    </video>
+    <br>
+    <!-- image - ADS -->
+    <img usemap="#ads" src="./pikachu.jpg" alt="Pikachu" width="500" height="300">
+    <!-- how to load a link when clicking on image  -->
+    <map name="ads">
+    <area shape="rect" coords="500, 500, 100, 200" href="https://www.google.com/" alt="google.com">
+    </map>
+
+    <!-- emoji -->
+    <!-- & and # used to get ascii value -->
+    <p>&#128519</p>
+
+    <!-- class and id -->
+    <!-- we have to target with multiple thing with same name the class
+    when we want uniquely then id -- sat class
+    <p class="" id=""> </p> -->
+        
+    <!-- Semantic -->
+    <nav></nav>
+    <header></header>
+    <footer></footer>
+    <!-- to keep in seperate section -->
+    <section aria-label="HEROSECTION"></section>
+    <section aria-label="MAINSECTION"></section>
+</body>
+</html>

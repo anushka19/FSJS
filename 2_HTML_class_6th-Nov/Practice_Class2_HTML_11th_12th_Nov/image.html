@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+</head>
+<body>
+    <!-- to see where we  clicked on an image, FB tags used to worked, image tracking and myntra  -->
+    <img usemap="#pikachu"
+    
+    src="./pikachu.jpg" alt="pikachu">
+    <map name="pikachu">
+        <area target="" alt="" title="" onclick="myfuncOne()" href="" coords="1360,103,3965,2854" shape="rect">
+        <area target="" alt="" title="" href="" onclick="myfuncTwo()" coords="324,1113,1283,2140" shape="rect">
+    </map>
+    <script>
+        function myfuncOne(){
+            alert("You clicked One")
+        }
+        function myfuncTwo(){
+            alert("You clicked Two")
+        }
+    </script>
+</body>
+</html>
+<!-- style="width:300px;" -->
