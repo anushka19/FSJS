@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 2</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        /* Margin and Padding */
+        /* Margin is from outside and Padding is from inside - Space */
+        p{
+            border: 5px solid red;
+            padding: 50px 10px 10px;
+        }
+        /* top - right bottom left  */
+        .container{
+            margin-top: 50px;
+           height: 50px;
+           width: 150px;
+        }
+        .container:hover{
+            background-color: yellow;
+        }
+
+        li{
+            list-style-type: upper-latin;
+            
+        }
+
+        .box1{
+            height: 250px;
+            width: 250px;
+            border: 2px solid black;
+            border-radius: 16px;
+            position: fixed;
+            left: 50%;
+        }
+
+        .box2{
+            height: 250px;
+            width: 250px;
+            border: 2px solid black;
+            border-radius: 16px;
+            background-color: #0000;
+            position: static;
+            left: 50%;
+        }
+        /* relative */
+        /* float - right, left and inherit */
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi at est architecto nemo quos, dolorem ducimus et! Aspernatur doloribus aliquid a, nostrum corporis quos id, nesciunt, sequi accusantium quibusdam nobis?</p>
+        <ul>
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+            <li>Four</li>
+            <li>Five</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <p class="box1">
+            One
+        </p>
+        <p class="box2">
+            Two
+        </p>
+    </div>
+    
+</body>
+</html>

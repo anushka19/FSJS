@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        a:hover{
+            background-color: #B4161B;
+        
+        }
+        a:visited{
+            color: #1FAA59;
+        }
+        a:link{
+            color: black;
+        }
+        input:focus{
+            background-color: #242B2E;
+            color: white;
+        }
+
+        /* n, n+1, 2n+1 */
+        li:nth-child(even){
+            background-color: #5DA3FA;
+        }
+        li:nth-child(7){
+            background-color: #F7CD2E;
+            border: 2px dotted black;
+        }
+
+        li:first-child{
+            color: #B4161B;
+        }
+        li:last-child{
+            color: #1FAA59;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum natus, quas accusantium et obcaecati sit architecto reiciendis fugiat impedit accusamus? Exercitationem eaque magnam sunt voluptatibus qui nobis labore fugit quasi!</p>
+    <a href="https://www.google.com/">Google</a>
+    <a href="https://getbootstrap.com/docs/5.2/components/buttons/">Bootstrap</a> <br>
+    Name: <input type="text"> <br> <br>
+    Password <input type="password" name="" id="">
+<!-- odd and even different color  -->
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        <li>Four</li>
+        <li>Five</li>
+        <li>Six</li>
+        <li>Seven</li>
+        <li>Eight</li>
+        <li>Nine</li>
+        <!-- first priority will go to inline, then internal and external  -->
+        <li style="color: yellow;">Ten</li>
+    </ul>
+
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+
+   
+</body>
+</html>
