@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Assignment</title>
+
+    <style>
+
+        /* individual selector */
+        p{
+            background-color: #fff;
+        }
+
+        /* Universal selector */
+
+        * {
+            background-color: #E8BD0D;
+            color:  #6F00ED;
+            padding: 2;
+        }
+        /* class selector */
+    
+        .rating1{
+            background-color: #538FFB;
+        }
+        /* ID selector */
+        #rating_id{
+
+            background-color:#CAD5E2;
+            color: #0D0D0D;
+        }
+        /* Chained selector */
+        .success.text-white {
+            background-color: green;
+            color: black;
+        }
+
+        /* Show block vs inline - Combined Selector */
+        h1, span {
+            background-color:  #E1A2B8;
+        }
+
+        /* Inside an element or Decendent combinator  */
+        form div ul li {
+            list-style-type: square;
+        }
+
+        /* Direct child or child combinator  */
+        form > ul > li {
+            background-color: #fff;
+        }
+
+        /* Sibling + or Adjacent sibiling combinator */
+        ul + p {
+            background-color: #35BDD0;
+        }
+
+        /* Sibling + or General sibiling combinator */
+        p ~ div{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: large;
+            font-style: italic;
+        }
+        /* ************************************************ */
+
+        /* Pseudo classes - Before  */
+        span::before{
+            content: "Test ";
+
+        }
+
+        /* Pseudo classes - After  */
+        p::after{
+            background-color: blue;
+            content: "Dummy";
+            color: #CAD5E2;
+        }
+
+        /* Pseudo classes - Hover  */
+        h1:hover{
+            background-color: #115bc3;
+            color: #CAD5E2;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1 align="left">Feedback Form</h1>
+    </div>
+    <div>
+        <form action="">
+            Name: <input type="text" name="" id="" placeholder="Name"> <br> <br>
+            <span>Email: <input type="email" name="" id="" placeholder="Email"> <br> <br></span> 
+            Password: <input type="password" name="" id="" placeholder="Password"> <br> <br>
+            
+            Please  check all the emotions that apply to you: <br>
+            <ul>
+                <li class="rating1"><input type="checkbox" name="emotions" id=""> Angry <br></li>
+                <li id="rating_id"><input type="checkbox" name="emotions" id=""> Sad <br></li>   
+                <li><input type="checkbox" name="emotions" id=""> Happy <br></li>
+                <li> <input type="checkbox" name="emotions" id=""> Ambivalent <br> <br></li>
+            </ul>
+                    
+    
+           <p>How satisfied were you with our service? <br></p> 
+            <div>
+                <ul>
+                    <li class="rating1">Very Satisfied: <input type="radio" name="satisfaction" id=""></li>
+                    <li id="rating_id"> Satisfied: <input type="radio" name="satisfaction" id=""></li>
+                    <li>Didn't Care: <input type="radio" name="satisfaction" id=""></li>
+                    <li>Very dissatisfied: <input type="radio" name="satisfaction" id=""></li>
+                </ul>
+                
+            </div>
+            
+            <p>Hello World</p>
+            <span>Hello Word </span>
+            <div>
+                Share your experience: Very Dissatisfied  <input type="range" name="" id="">  Very Satisfied
+                <br> <br>
+                
+                    Further comments: 
+                    <textarea name="story" id="" cols="30" rows="10"></textarea> <br> <br>
+                
+               
+                Bio Photo: <input type="image" src="" alt=""> <br> <br>
+                Any files: <input type="file" name="" id=""> <br> <br>
+           
+            </div>
+           
+          
+                Select Location: <select name="locations" id=""> <br> <br>
+                    <option value="kochin"> Kochin </option> 
+                    <option value="Delhi"> Delhi </option>
+                    <option value="mumbai"> Mumbai </option>
+                    <option value="kolkata"> Kolkata </option>
+                    <option value="chennai"> Chennai </option>
+                    <option value="hyd"> Hyderabad </option>
+                    <option value="Bangalore"> Bangalore </option>
+                </select> 
+                <br> <br>
+           
+            
+            Select date: <input type="date" name="" id=""> <br> <br>
+            Enter current time: <input type="time" name="" id=""> <br> <br>
+            Search: <input type="search" name="" id="" min="11:00" max="00:00"> <br> <br>
+            Select color: <input type="color" name="" id=""> 
+            <input type="hidden" name="" value="Sequence 1 "> <br> <br>
+            <span><input class="success text-white" type="submit" value="Submit"></span>
+            <input type="reset" value="Reset">
+        </form>
+    </div>
+    
+</body>
+</html>
+
