@@ -1,0 +1,43 @@
+*{
+    /* property: value  */
+    color: red; 
+    /* background-color: grey; 
+    background-image: url("https://images.unsplash.com/photo-1668405409882-0b3a8b6fc912?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    */
+}
+/* things inside brackets are known as declaration */
+
+p{
+    color:aquamarine;
+}
+
+.para{
+    
+    color: whitesmoke;
+    /* border: width, style- solid, dotted, dashed, double, color  */
+    border: 2px dashed red;
+    /* border-width: 5px;
+    first value - top and bottom, 2nd value right and left
+    /* top left bottom right
+    border-style: solid dotted double;
+    border-color: black; */
+    padding: 50px; 
+    margin: 50px 20px;
+    height: 100px;
+    width: 200px;
+    background-color: black;
+    text-align: center;
+
+    text-decoration-line: underline;
+    text-decoration-line: line-through overline underline;
+  
+    /* 
+     margin: 50px 20px 10px;
+    margin-top: ;
+    margin-left: ;
+    margin-bottom: ;
+    margin-right: ; */
+}
+
+/* Margin is from outside and padding from inside  */
+
