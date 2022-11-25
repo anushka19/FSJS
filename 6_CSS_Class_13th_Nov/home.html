@@ -4,37 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS 2</title>
+    <title>Padding, Margin, List styles</title>
     <!-- <link rel="stylesheet" href="style.css"> -->
     <style>
         /* Margin and Padding */
         /* Margin is from outside and Padding is from inside - Space */
+        /* top - right bottom left - clockwise */
         p{
             border: 5px solid red;
             padding: 50px 10px 10px;
         }
-        /* top - right bottom left  */
+        /* top - right bottom left - clockwise */
         .container{
             margin-top: 50px;
-           height: 50px;
-           width: 150px;
+            padding: 50px 10px 10px;
+            /* height: 150px;
+            width: 150px; */
         }
+        /* applicable for the whole container whenerver we hover background colour turns yellow */
         .container:hover{
             background-color: yellow;
         }
-
+        
         li{
             list-style-type: upper-latin;
             
         }
-
+/*
         .box1{
             height: 250px;
             width: 250px;
             border: 2px solid black;
             border-radius: 16px;
             position: fixed;
-            left: 50%;
+            
         }
 
         .box2{
@@ -46,12 +49,13 @@
             position: static;
             left: 50%;
         }
-        /* relative */
+         relative */
         /* float - right, left and inherit */
 
     </style>
 </head>
 <body>
+    <span>To understand margin, padding and list styles</span>
     <div class="container">
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi at est architecto nemo quos, dolorem ducimus et! Aspernatur doloribus aliquid a, nostrum corporis quos id, nesciunt, sequi accusantium quibusdam nobis?</p>
         <ul>
@@ -62,7 +66,7 @@
             <li>Five</li>
         </ul>
     </div>
-
+    <!-- <span>To understand position styles</span>
     <div class="container">
         <p class="box1">
             One
@@ -70,7 +74,7 @@
         <p class="box2">
             Two
         </p>
-    </div>
+    </div> -->
     
 </body>
 </html>

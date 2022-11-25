@@ -6,33 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS</title>
     <style>
+        /* sudo selector inject an element before or after within the label - because its a content  */
         a:hover{
             background-color: #B4161B;
-        
+            color: white;
         }
         a:visited{
             color: #1FAA59;
         }
+        /* for the first time black color for the link- sudo selector */
         a:link{
             color: black;
         }
+
         input:focus{
             background-color: #242B2E;
             color: white;
         }
 
-        /* n, n+1, 2n+1 */
+        /* n, n+1, 2n+1 - here n is 1  */
+        /* only even or odd number throughout page  */
         li:nth-child(even){
             background-color: #5DA3FA;
         }
+        /* /specific to one number - here 7th element  */
         li:nth-child(7){
             background-color: #F7CD2E;
             border: 2px dotted black;
         }
-
+        /* on every the 5th element its red  */
+        li:nth-child(5n){
+            background-color: #ed2933;
+            border: 2px dotted black;
+        }
+        /* every first element of new li is getting red colour   */
         li:first-child{
             color: #B4161B;
         }
+        /* every last element of new li is getting green colour   */
         li:last-child{
             color: #1FAA59;
         }

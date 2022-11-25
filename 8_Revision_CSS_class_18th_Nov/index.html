@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS</title>
+    <style>
+        /* selectors - classes and ids commonly used, pseudo element, margin, padding, border, background, text, height and width  */
+        /* Child selector - speace or , */
+        /* div, p{
+            color: green;
+        } */
+
+        /* adjacent - sibling selector */
+        /* div + p{
+            color: blue;
+        } */
+        /* div ~ p{
+            color:aqua;
+        } */
+        /*:: - class, : - element -> pseudo selector ::before, ::after, :hover, */
+        .warning::before{
+            content: "Danger";
+            color: red;
+            font-size: 25px;
+        }
+        .quote::after{
+            content: "_Anushka";
+            color: blue;
+            font-size: 12px;
+        }
+
+        /* :hover, :focus  */
+        a:hover{
+            background-color: yellow;
+
+        }
+        a:visited{
+            color: red;
+        }
+
+        p:hover{
+            color: brown;
+        }
+        input[type=text]:focus{
+            color: deeppink;
+            background: black;
+        }
+        
+    </style>
+</head>
+<body>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel dolorem molestias beatae tempore aliquam praesentium dolores eum maiores nisi ea!
+    </p>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nam numquam repudiandae! Laborum eaque cum, veniam officiis perspiciatis vel illum!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum commodi cumque officiis eos consequatur, perferendis sapiente magnam. Repellat harum dolorem velit fuga quasi. Alias voluptatum illo earum molestiae molestias esse.</p>
+    </div>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos provident molestias porro, dolorum laudantium quaerat illo sapiente modi deserunt ab!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis saepe quam fuga, quod, reiciendis earum reprehenderit ducimus perspiciatis vel voluptas voluptatibus aspernatur quas eos autem veniam cupiditate non illum? Ad.</p>
+
+    <div class="warning">
+        <p>Please use the website Carefully</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, labore?</p>
+    </div>
+    <div class="quote">
+        <p>Please use the website Carefully</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, labore?</p>
+    </div>
+    <a href="https://google.com/">Google</a>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, suscipit.</p>
+    Name: <input type="text">
+    Email: <input type="email" name="" id="">
+</body>
+</html>
