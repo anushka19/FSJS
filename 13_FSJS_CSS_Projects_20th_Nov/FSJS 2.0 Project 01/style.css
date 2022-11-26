@@ -1,5 +1,11 @@
 /* You can not modify anything in the HTML */
 /* You can only modify the CSS file */
-li{
-    display:inline-block;
+.list{
+    display: inline-block
 }
+
+.nav-button{
+
+    display: inline-block
+}
+
