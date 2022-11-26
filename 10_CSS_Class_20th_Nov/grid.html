@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GRID</title>
+    <style>
+        
+        .container{
+            background-color: #808080;
+            height: 100vh;
+            /* width: 100vh; */
+            display: grid;
+            /* 1 fraction(FR) of entire width  */
+            grid-template-columns: repeat(3,1fr);
+            /* grid-template-rows: 100px 100px 100px; */
+            
+            row-gap: 100px;
+            column-gap: 200px;
+        }
+        .items{
+            background-color: #f2f211;
+            /* height: 70px;
+            width: 70px; */
+            margin: 10px;
+        }
+        .item1{
+            /* row wise extend  */
+            /* grid-column-start: 1;
+            grid-column-end: 3; */
+            /* column wise to extend  */
+            grid-row-start:1;
+            grid-row-end: 3;
+        }
+    </style>
+<body>
+    
+    <div class="container">
+        <div class="items item1">One</div>
+        <div class="items">Two</div>
+        <div class="items">Three</div>
+        <div class="items">Four</div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>       
+        
+        <!-- html
+        CSS
+         - Selector
+         -Pseudo
+         - Margin 
+         -Padding
+         - Border
+         -Background
+         - height
+         - width
+         -Media query
+         - felx
+         - grid
+         - hth child
+         -positions 
+         - display
+         - text
+        
+        
+        -->
+        <!-- 
+            Tailwind, Bootstrap, Git and Github , Makrdown
+         -->
+         <!-- 
+            3 Projects
+            post - linkedin
+            article(Positions, flex, grid, media)
+            submit asap
+          -->
+    </div>
+</body>
+</html>

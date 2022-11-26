@@ -4,23 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS - Position</title>
+    <title>CSS Position- realtive and absolute</title>
     <style>
         /* Selectors, pseudo, nth child, float, borader, margin and padding, height and width, forms, block, inline*/
-
-        /* position - static, fixed, sticky, relative and absolute  */
         /* display CSS property sets whether an element is treated as a block or inline element  */
+
+        /* position - static, fixed, sticky, relative and absolute  */    
         .container{
-            height: 1000px;
-            border: 2px solid rgb(193, 131, 131);
+            height: 1500px;
+            border: 2px solid #c18383;
         }
+        /* to make inline-block display : inline-block */
         .pos{
             border: 1px solid black;
             display: inline-block;
             height: 70px;
             width: 70px;
             text-align: center;
-            border-radius: 7px;
+            border-radius: 10px;
         }
         /* relative based on previous area  */
         /* #three{
@@ -28,21 +29,28 @@
             top: 50px;
             right: 50px;
         } */
-        /* #three{
+        /*
+        #three{
             position: absolute;
-            top: 50px;
-            /* right: 50px; 
-            
+            top: 20px;
         }
-            */
-        
-        /* #three{
-            position: sticky;
-            top: 50px;
+             right: 50px;  
+            
+       
+         */   
+        /* fixed at the bottom - usually chat bot 
+         #three{
+            position: fixed;
+            bottom: 10px;
             right: 10px;
-            /* right: 50px; 
-            }
-            */
+            
+         }
+        */
+        /* stuck on the top  */
+        #three{
+            position: sticky;
+            top: 10px;
+        }
         
 
 

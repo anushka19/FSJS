@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+    <style>
+        .container{
+            display:grid;
+            /* grid-template-columns: 100px 100px 100px 100px;
+            grid-template-rows: 100px 250px 100px; */
+            /* width: 1000px; or 100vh - viewport height is same */
+            height: 100vh;
+            /* whole display is divided into 3 equal parts - 3 columns of equal width */
+            grid-template-columns: repeat(3, 1fr);
+        }
+         .item{
+                /* height: 70px;
+                width:50px; */
+                border: 1px solid black;
+                margin: 2px;
+                border-radius: 10px;
+                text-align: center;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item1">One</div>
+        <div class="item">Two</div>
+        <div class="item">Three</div>
+        <div class="item">Four</div>
+        <div class="item item3">Five</div>
+        <div class="item">Six</div>
+        <div class="item item2">Seven</div>
+        <div class="item">Eight</div>
+        <div class="item">Nine</div>
+        <div class="item">Ten</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS-Flex</title>
+    <style>
+        .container{
+            /* height: 1000px; */
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            /* justify-content: center; */
+            align-items: center;
+            /* border: 1px solid black; */
+            /* gap - row gap, column gap  */
+            gap:10px;
+        }
+        .item{
+
+            height: 70px;
+            width:50px;
+            border: 1px solid black;
+            margin: 2px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .item1{
+            order:1;
+            /* flex-grow: 2; */
+            /* combine flex-grow and flex-shrink in one  */
+            flex: 1 2;
+        }
+        .item2{
+            order:2;
+            /* first it will shrink this item then others */
+            flex-shrink:2;
+        }
+        .item3{
+            order:5
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item1">One</div>
+        <div class="item">Two</div>
+        <div class="item">Three</div>
+        <div class="item">Four</div>
+        <div class="item item3">Five</div>
+        <div class="item">Six</div>
+        <div class="item item2">Seven</div>
+        <div class="item">Eight</div>
+        <div class="item">Nine</div>
+        <div class="item">Ten</div>
+    </div>
+</body>
+</html>
