@@ -1,2 +1,118 @@
 /* You can not modify anything in the HTML */
 /* You can only modify the CSS file */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    max-width: 1440px;
+    background-color: #000000;
+    color: #ffffff;   
+    
+}
+div img{
+    height:auto;
+    width: 100px;
+    position: absolute;
+    left: 80px;
+    top: 30px;
+}
+nav{
+    height: 10vh;
+    display: flex;
+    align-items: center;   
+    justify-content: space-around;
+       
+    
+}
+
+nav ul{
+    display: flex;    
+    justify-content:space-between;
+    gap: 150px;
+
+}
+
+nav ul li{
+    list-style-type: none;
+    
+}
+
+nav ul li:first-child::after{
+    content: " \0002C7";
+    transform: rotate(90deg);
+    height: 10px;
+    width: 10px;
+}
+
+.line{
+    border: 1px solid #ffffff;
+    position: relative;
+    left:50px;
+    height: 50px;
+}
+
+button{
+    background-color: #aa258f;
+    border-radius: 5px;
+    padding:15px 40px;
+    color: #ffffff;
+    border: 0;
+    cursor: pointer;
+    
+}
+.button-small{
+    position: absolute;
+    right: 100px;
+    top:30px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+/* Main or Hero Section  */
+
+/* bg image  */
+.hero{
+    
+    height: 90vh;
+    width: 100vw;
+    background-image: url("./assets/bg.png");
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    
+}
+.hero-heading{
+    
+    font-size: 85px;
+    height: 40vh;
+    width: 50vw;
+    text-align: center;
+    padding: 5px;
+}
+.hero-description{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    height: 30%;
+    position: relative;
+    bottom: 15%;
+   
+}
+.button-large{
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+    bottom: 33%;
+    border-radius: 15px;
+}
