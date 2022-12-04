@@ -1,11 +1,109 @@
 /* You can not modify anything in the HTML */
 /* You can only modify the CSS file */
-.list{
-    display: inline-block
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    max-width: 1440px;
+    background-color: #ffffff;
+    margin: auto;
+    overflow: hidden;
+}
+/* Navbar */
+nav{
+    padding:0 5%; 
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 15vh;
+    margin-top:5%;    
+   
 }
 
+nav ul{
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: -120%;
+    
+    
+}
+
+nav ul li{
+    list-style-type: none;   
+    font-family: 500;
+    color: #999898;
+    padding-left: 5%;
+   
+}
+
+/* logo */
+nav ul li:first-child{
+    color: #000000;
+}
+nav div img{
+    height: auto;
+    width: 110px;
+   
+}
+/* contact us - button  */
 .nav-button{
 
-    display: inline-block
+    color: #ffffff;
+    background-color: #5a4fb1;
+    padding: 15px 35px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: -65%;
+    
 }
 
+/* Left Text */
+.banner-container{
+    display: flex;
+    margin-left: 5%;
+    
+
+}
+.heading-text{
+
+    width: 400px;
+    margin-bottom: 5%;
+   
+}
+div h1{
+    font-size: 60px;
+    width: 800px;
+    color: #342e64;
+}
+div h1 span{
+    color: #5a4fb1;
+}
+.description{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 15%;
+    margin-left: 0%;
+    color: #999898;
+    width: 350px;
+}
+.btn{
+    padding: 5%  15%;
+    font-size: 17px;
+    font-weight: 500px;
+    margin: 0%;
+    border-radius: 15px;
+}
+div img{
+    margin-top: -5%;
+    margin-left: 5%;
+}
