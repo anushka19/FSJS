@@ -14,6 +14,7 @@ body{
     color: #ffffff;   
     
 }
+/* logo */
 div img{
     height:auto;
     width: 100px;
@@ -21,38 +22,39 @@ div img{
     left: 80px;
     top: 30px;
 }
+/* navbar  */
 nav{
     height: 10vh;
     display: flex;
     align-items: center;   
-    justify-content: space-around;
-       
-    
+    justify-content: space-evenly;
 }
-
 nav ul{
-    display: flex;    
-    justify-content:space-between;
-    gap: 150px;
-
+    display: flex;  
+    gap: 130px;
 }
+    
 
+/* navbar list  */
 nav ul li{
     list-style-type: none;
     
 }
 
 nav ul li:first-child::after{
-    content: " \0002C7";
-    transform: rotate(90deg);
+    content: "  \0002C7";
+    /* transform: rotate(90deg); */
+    position: relative;
     height: 10px;
     width: 10px;
+    top: 5px;
+    
 }
 
 .line{
     border: 1px solid #ffffff;
     position: relative;
-    left:50px;
+    left: 20px;
     height: 50px;
 }
 
@@ -68,7 +70,7 @@ button{
 .button-small{
     position: absolute;
     right: 100px;
-    top:30px;
+    top: 30px;
     font-size: 15px;
     font-weight: 500;
 }
