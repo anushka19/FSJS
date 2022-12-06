@@ -59,9 +59,9 @@ nav ul li:first-child::after{
 }
 
 button{
-    background-color: #aa258f;
+    background-color: #b01aae;
     border-radius: 5px;
-    padding:15px 40px;
+    padding:10px 35px;
     color: #ffffff;
     border: 0;
     cursor: pointer;
@@ -116,5 +116,5 @@ button{
     font-weight: 500;
     position: relative;
     bottom: 33%;
-    border-radius: 15px;
+    border-radius: 12px;
 }
