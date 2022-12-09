@@ -15,6 +15,7 @@ body{
     max-width: 1440px;
     background-color: #ffffff;
     margin: 3%;
+    overflow: hidden;
 }
 /* Logo  */
 nav{
@@ -25,9 +26,9 @@ nav{
 }
 nav>div>img{
     position: relative;
-    height: 55px;
-    right: 100px;
-    bottom: 35px;
+    height: 50px;
+    left: -140px;
+    bottom: 30px;
 }
 
 nav ul{
@@ -45,13 +46,12 @@ nav ul li{
     font-weight: 500;
     
 }
-nav ul li:first-child{
+nav ul li:hover{
+    
     font-weight: 800;
-    font-size: 30px;
-    /* border: 2px solid; */
-    /* position: relative; */
-    width: 10%;
-    /* display: block; */
+    font-size: 30px; 
+    text-decoration: underline black;
+
     
 }
 
@@ -72,31 +72,117 @@ button{
     font-family: 'Poppins', sans-serif;
     font-size: 25px;
     color: #4a4a4a;
+    cursor: pointer;
 }
 
 /* Hero Section  */
 .hero-container{
     display: flex;
-    align-items: center;
+    justify-content: center;
     align-content: center;
     height: 80vh;
 }
 
 .square{
-    /* position: absolute; */
-    left: 0;
-    bottom: 100px;
+    position: absolute;
+    left: 300px;
+    top: 500px;
 }
 
 div>img {
-    position: absolute;
-    left: 100px;
-    bottom: 50px;
-    
-}
-.globle{
-    position: relative;
+    position:absolute;
     left: 100px;
     bottom: 100px;
+    
+}
+/* right side  */
+.hero-container-right{
+    margin-left: 40%;
+    margin-top: 15%;
+    position: relative;
+}
+.globe{
+    
+    position: relative;
+    left: 860px;
 
+}
+.hero-heading{
+    font-size: 70px;
+    width: 200%;
+    margin-left: 0%;
+    top: -60px;
+    position: relative;
+}
+
+.hero-description{
+    position: relative;
+    right: -90px;
+    width: 800px;
+    top: -10px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    color: #4a4a4a;
+}
+
+.star{
+    position: relative;
+    left: 1570px;
+    height: 100px;
+    bottom: -50px;
+    
+}
+.star:nth-child(2){
+    position: relative;
+    bottom: -700px;
+    left: 800px;
+   
+    
+}
+.button-email, .button-join{
+    position: relative;
+    left: 30%;
+    top: 80px;
+}
+.button-join{
+    position: relative;
+    right: 100px;
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 25px;
+    border-radius: 15px;
+    padding: 2px 5px;
+    font-family: 'Orbitron', sans-serif;
+}
+.button-email{
+    padding: 5px 35px;
+    margin: 15px;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 15px;
+}
+.contact-heading,.icons{
+    position: relative;
+    right: -200px;
+    bottom: -200px;
+    padding-right: -500px;
+}
+.contact-heading{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    height: 5vh;
+    color: #4a4a4a;
+    right: -400px;
+    font-weight: 500;
+}
+.icons{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   align-items: center;
+   position: relative;
+    right: -70px;
+   gap: 20px;
+   cursor: pointer;
+  
 }
