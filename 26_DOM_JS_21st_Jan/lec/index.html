@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM JS - 1</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <p class="fsjs"> <span>Lorem</span>  ipsum dolor sit amet consectetur adipisicing elit. Doloribus - class</p>
+    <p id="fsjs2"> Full Stack Developer - ID</p>
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+    <ul>
+        <li class="tech">Javascript</li>
+        <li class="tech">Nodejs</li>
+        <li class="tech">Reactjs</li>
+    </ul>
+    <script>
+        // console.log("Hello World")
+        // console.log(document)
+        //document is a complete page
+        // console.log(window.document);
+        //document is related to document and its with it
+        //console.log(window); // window has lot of things
+       // console.log(document.documentElement); // we get all elemnets in the doc with body, main tags seprerated
+        // console.log(document.head);
+        // console.log(document.body);
+        // console.log(document.body.firstElementChild);
+
+        //1way - using ID
+        // let val = document.getElementById("fsjs2")
+        // console.log(val.innerText); // we get only plain text
+        // console.log(val.innerHTML);//innerHTML we get span and block elements
+
+        //2nd way - using class
+        //same class used at multiple places
+        let val2 = document.getElementsByClassName("tech");
+        console.log(val2);
+
+        console.log(val2[0].innerText);
+        console.log(val2[1].innerText);
+        val2[1].innerHTML = "Anushka"
+        //val2[2].innerHTML = "<h1>Hello World</h1>"
+        val2[2].innerText = "<h1>Hello World</h1>"
+        //usually keep innerText so that no one will able to pass script inside input box
+        //Homework
+        //3rd way - tagname
+        //4th way - by tag
+
+        //QuerySelector - better way
+        //tagname
+        let h1 = document.querySelector("h1").innerText
+        //console.log(h1);
+        //class name
+        let h2 = document.querySelector(".fsjs").innerText
+        //console.log(h2);
+        //ID
+        let h3 = document.querySelector("#fsjs2").innerText
+        console.log(h3);
+
+        //applying CSS
+        //skip - let value = (document.querySelector("p").style.backgroundColor = "red")
+        
+        
+    </script>
+</body>
+<!-- add above html code in  https://fritscher.ch/dom-css/  -->
+</html>
