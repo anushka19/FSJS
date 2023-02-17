@@ -18,4 +18,5 @@ function changeRandomColor(){
     document.body.style.backgroundColor = randomColor();
 }
 
+//step4: connect it to button
 btn.addEventListener("click", changeRandomColor);
