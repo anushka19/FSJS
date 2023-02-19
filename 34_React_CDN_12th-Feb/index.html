@@ -1,0 +1,70 @@
+<!-- every react will have 1 index.html file -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .header{
+            color: purple;
+            border: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+    <!-- this div is must in every react  -->
+    <div class="root">Not Rendering</div>
+    <!-- for whole react project -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script> 
+    <!-- to handle DOM in react and DOM is inside react above, crossorigin across all countries -->
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!-- //babel -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type = "text/babel" data-type="module">
+
+        const rootElement = document.querySelector(".root"); //where to target/render
+
+        //const cssss = {border: "2px solid pink", backgroundColor: "yellow"};
+        //first curly braces in style to insert something and second is for key:value pair/object
+
+        const element = (
+            //style = {{border: "2px solid black", color: "red"}}
+         <header className = "header">
+            <h1>Hello FSJS 2</h1>; //what to target/render
+            <p>Welcome to react cdn</p>
+         </header>
+        );
+//1:34
+//key:value
+        const main = (
+            //style = {cssss}
+        <main> 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores omnis eaque quia quo velit vel sit assumenda id provident nostrum, blanditiis ipsum doloremque ea dicta, sunt nobis odit placeat modi!</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dolor saepe quibusdam sequi beatae tempora, rem, corporis sunt assumenda odit deserunt dolore ab at. Ex odio at aliquid doloremque molestias.</p>
+        </main>
+        );
+
+        const footer = (
+        <footer>
+            <p>Copyright @ 2023</p>
+        </footer>
+        );
+
+        // assign all 3 - header,main, footer because we can pass only one variable on render
+        //to insert anything in reaxt we use {}
+        //To include JSX element / Javascript expression inside another element we use {}
+        //here we use react fragment
+        const app =
+        <>
+            {header}, {main}, {footer}
+        </>;
+        //
+        ReactDOM.render(app, rootElement);//What,Where
+    </script>
+</body>
+</html>
