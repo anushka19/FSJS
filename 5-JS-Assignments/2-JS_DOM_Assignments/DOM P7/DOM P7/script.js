@@ -23,7 +23,7 @@ console.log(btn2)
 //reload and get 2.0s
 //let submit = 
 let course = document.querySelector(".main__languages")
-let change = btn2.addEventListener("click", c = () => {
+let change = btn2.addEventListener("click", c = (e) => {
    
    for(i = 0; i < lang.length;i++){     
       if(lang[i].innerText.includes("2.0")){
@@ -32,7 +32,7 @@ let change = btn2.addEventListener("click", c = () => {
          
     }
          
-         
+     e.preventDefault()   
     
    }
    //return lang

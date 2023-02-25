@@ -8,24 +8,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>React</title>
     <link rel="stylesheet" href="./style.css">
-    <style>
+    <!-- <style>
         .header{
             color: purple;
             border: 2px solid red;
         }
-    </style>
+    </style> -->
+    
 </head>
 <body>
-    <!-- this div is must in every react  -->
+    
     <div class="root">Not Rendering</div>
-    <!-- for whole react project -->
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script> 
+     <!-- for whole react project -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <!-- to handle DOM in react and DOM is inside react above, crossorigin across all countries -->
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!-- this div is must in every react  -->
     <!-- //babel -->
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+   
+     
     <script type = "text/babel" data-type="module">
-
+ 
         const rootElement = document.querySelector(".root"); //where to target/render
 
         //const cssss = {border: "2px solid pink", backgroundColor: "yellow"};

@@ -1,17 +1,17 @@
 function setState(){
 	let score = 22
-    return score
+    return [score]
 
 }
 
-let myScore = setState()
-console.log( myScore +" one")
+let [myScore] = setState();
+//console.log( myScore +" one")
 
 //console.log(myScore);
 myScore = 12 // copy of 22 is changed
 console.log(myScore);
 
-let anotherScore = setState()
+let [anotherScore] = setState()
 anotherScore;
 
 console.log(anotherScore)

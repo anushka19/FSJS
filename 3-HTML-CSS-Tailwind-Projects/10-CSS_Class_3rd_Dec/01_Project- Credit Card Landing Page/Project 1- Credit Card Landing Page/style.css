@@ -250,7 +250,75 @@ section ul li:nth-child(2n){
 }
 
 /* Card Choices */
-.cards{
+.cards-pink{
+    background-color: #FCEFFB;
+}
+.card-choices{
+    display: flex;
+    flex-direction: column;   
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    position: relative;
+    height: 150vh;
+    left: 370px;
+    
+}
+
+
+.unique{
+    color: #000000;
+    font-size: 70px;
+    width: 750px;
+    position: relative;
+    left: 190px;
+    text-align: center;
+
+}
+.unique .pink-highlight{
+    font-weight: 650;
+}
+.features{
+    color: #636063;
+    font-size: 20px;
+    font-weight: 400;
+    width: 600px;
+    position: relative;
+    left: 250px;
+    bottom: -40px;
+    text-align: center;
+}
+
+/* Customer Ratings */
+.rating{
     display: flex;
     flex-direction: column;
+    align-content: center;
+    background-color: #151515;
+    gap: 40px;
+    /* padding: 40px; */
+    justify-content: center;
+    height: 110vh;
+}
+.rating-text{
+    
+}
+
+.blocks {
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 100px;
+    position: relative;
+    
+}
+.block1, .block2, .block3, .block4{
+    flex-direction: column;
+    height: 200px;
+    width: 700px;
+    border: 2px solid #efefef;
+
+}
+.five, .four{
+    height: 20px;
 }
