@@ -238,7 +238,7 @@ body{
 .page2-section{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     /* height: 250vh; */
     background-color: #ffffff;
 }
@@ -247,34 +247,86 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    /* gap: 20px; */
     
 }
 
+
+
 .page2-r{
-    gap: 10px;
-    
+   background-color: #111010;
+   gap: 20px;
+   height: 600px;
+   width: 500px; 
+   padding: 20px; 
+   border-radius: 20px;
 }
 
 .page2-r >.feat-6 >.dot{
-    margin-top:25px;
-    margin-right: 150px; 
+    margin-top: 17px;
+    margin-right: 10px; 
     border-radius: 60%;
     width: 15px;
     height: 15px;
     display: inline-block;
-    background-color: #838282;
+    background-color: #b9b6b6;
+}
+
+.feat-1{
+
+    background-color: #0C8BFD;
+    border-radius: 40px;
+    height: 40px;
+    width: 500px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 15px;
+    /* padding-left: 10px; */
+    padding-bottom: 80px;
+    border: 2px solid #0C8BFD;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 300px;
+    position: relative;
+    bottom: 50px;
 }
 
 .feat-6{
-    background-color: #111010;
-    color: #838282;
-    width: 700px;
+    /* background-color:#2a2929 ;
+    color: #b9b6b6;
+    width: 500px;
     height: 60px;
-    padding: 2px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    gap: 20px;
+    /* justify-content: flex-start; */
+    /* gap: 20px; 
     padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    border-radius: 30px;
+    align-items: flex-start; 
+    font-size: 20px; */
+    background-color: #292828;
+    border-radius: 40px;
+    height: 40px;
+    width: 500px;
+    text-align: left;
+    color: #b9b6b6;
+    font-weight: 500;
+    font-size: 15px;
+    padding-left: 30px;
     padding-bottom: 50px;
+
+
+}
+
+.feat-6:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #292828;
 }
