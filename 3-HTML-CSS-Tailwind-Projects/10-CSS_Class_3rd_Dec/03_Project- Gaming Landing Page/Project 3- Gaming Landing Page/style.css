@@ -1,0 +1,235 @@
+*{
+    margin: 0px;
+    padding: 0;
+    font-family: 'Alexandria', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    /* margin: 30px; */
+   
+    /* margin-left: -20px; */
+
+}
+.page-1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url('./Assets/Photos/futuristic-bg.png');
+    /* background-position: left 100px center; */
+    background-position: top 5px center;
+    background-position: bottom 80px center;
+    opacity: 1;
+    /* object-fit: 90%; */
+    
+   
+    
+}
+
+.section-1{
+    
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    justify-content: space-around;
+    position: relative;
+    
+    /* gap: 100px; */
+    /* margin: 30px; */
+    
+}
+.logo{
+    margin: 40px;
+}
+
+.list1, .list2{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 50px;
+    justify-content: space-around;
+    cursor: pointer;
+    margin: 40px;
+}
+
+.list1{
+    position: relative;
+    left: -300px;
+    top: 10px;
+    font-weight: 500px;
+    font-size: 17px;
+}
+
+.btn-1{
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.btn-1:hover{
+    cursor: pointer;
+}
+
+.btn-2{
+    background-color: #F4694C;
+    color: #ffffff;
+    width: 150px;
+    padding: 15px;
+    position: relative;
+    bottom: 10px;
+    font-weight: 500px;
+    font-size: 17px;
+    
+}
+
+.btn-2:hover{
+    cursor: pointer;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: row;
+    color:#ffffff;
+    margin: 200px;
+    position: relative;
+    top: 20px;
+    gap: 300px;
+
+}
+
+.section-left-2{
+    
+    margin: 20px;
+}
+
+.para-1{
+    font-size: 70px;
+    font-weight: 700;
+    width: 750px;
+    margin-bottom: 10px;
+}
+
+.section2-para-2{
+    font-size: 20px;
+    margin-bottom: 50px;
+    width: 700px;
+}
+
+.btn-3{
+    background-color: #F4694C;
+    color: #ffffff;
+    width: 200px;
+    padding: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    /* bottom: 10px; */
+    font-weight: 500px;
+    font-size: 20px;
+}
+        
+.btn-4{
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 17px;
+    border: 2px solid #ffffff;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: 500px;
+    font-size: 20px;
+}
+.login-button{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.section-right-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 400px;
+
+}
+.section-right-down{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.play{
+    position: relative;
+    top: 130px;
+    right: 50px;
+    height: 100px;
+}
+
+.section2-para-right-2{
+    width: 250px;
+    font-size: 25px;
+    position: relative;
+    bottom: 80px;
+}
+
+.dash{
+    position: relative;
+    bottom: 120px;
+}
+
+.right-arrow{
+    position: relative;
+    top: 10px;
+    left: 50px;
+    height: 20px;
+}
+
+.page-2{
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.card1{
+    
+    display: flex;
+    flex-direction: column;
+    /* width: 400px; */
+    /* gap: 500px; */
+}
+
+.card1-left{
+    /* background-image: url('./Assets/Photos/image-2.png'); */
+    height: 400px;
+    width: 300px;
+    /* overflow: hidden; */
+    object-fit: fill;
+    object-position: 20% 10%; 
+    position: relative;
+    bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.soldier{
+    height: 1000px;
+    width: 800px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: 65% 15%; 
+    /* margin: 10px; */
+    
+}
+.card1-details1{
+    position: relative;
+    bottom: 100px;
+    height: 150px;
+    width: 300px;
+    backdrop-filter: blur(50px);
+  /* -webkit-filter: blur(8px); */
+    /* z-index: 5; */
+    
+}
+.soldier-para1{
+    position: relative;
+    z-index: 1;
+}
+.soldier-para2{
+    z-index: 1;
+}
