@@ -1,5 +1,5 @@
 
-const {createSlice} = require("@reduxjs/toolkit");
+const { createSlice } = require("@reduxjs/toolkit");
 //always have some initial val
 
 const initialState = {
@@ -10,7 +10,7 @@ const initialState = {
 export const counterSlice = createSlice({
     name: 'counter',
     initialState,
-    reducer: {
+    reducers: {
         increment: (state) =>{
             state.value +=1
             //state.email - based on defined values in initial state
