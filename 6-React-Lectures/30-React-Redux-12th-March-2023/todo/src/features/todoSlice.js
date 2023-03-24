@@ -1,11 +1,10 @@
-import {createSlice} from '@reduxjs/toolkit'
+import { createSlice } from '@reduxjs/toolkit'
 import { nanoid } from '@reduxjs/toolkit'
 
 const initialState = {
-    todos:[ {id: 123, text: "Test"},
-        {id:456, text: "Hello Word"},
-    
-    ]
+    todos:[]
+    // {id: 123, text: "Test"},
+    //     {id:456, text: "Hello Word"},
 }
 
 export const todoSlice = createSlice({
@@ -13,30 +12,36 @@ export const todoSlice = createSlice({
     initialState,
     reducers:{
         addTodo: (state, action) =>{
-            const todo = {
+            const newtodo = {
                 id: nanoid(), //Generate a unique id everytime
                 text: action.payload
             };
 
-            state.todos.push(todo)
+            state.todos.push(newtodo);
             //Todos.slice(1,3) - id, position 
             //Todo.splice(1,3)-> changes the original array
         },
         removeTodo: (state, action) =>{
             state.todos = state.todos.filter((todo) => todo.id !== action.payload) //list of all items except the item clicked to get deleted
-        }
+        },
+        removeAll:(state)=>{
+            state.todos=[];
+        },
 
-        // updateTodo: (state,action) => {
-        /*   state.todos = state.todos.filter((todo) => {
-         if(todo.id === action.payload)
-            state.todos = state.todos.text or use state
-         )}
+         updateTodo: (state,action) => {
+            //state.todos = state.todos.filter((todo) => {
+            // const index = state.todos.findIndex(todo => todo.id === action.payload)
+            // const editTodo= [...state.todos]
+            // editTodo[index].text = action.payload.text
+         if(state.todo.id === action.payload)
+            state.todos.text =  action.payload.text  //or use state
+        
             
-         }*/
+         }
         
     }
 })
 
-export const {addTodo, removeTodo} = todoSlice.actions
+export const {addTodo, removeTodo,removeAll, updateTodo} = todoSlice.actions
 
 export default todoSlice.reducer

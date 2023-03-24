@@ -4,6 +4,6 @@ import todoReducer from '../features/todoSlice';
 //async, middleware here
 export const store = configureStore({
     reducer:{
-        todos: todoReducer
+        todosok: todoReducer
     }
 })
