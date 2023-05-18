@@ -27,6 +27,8 @@ body{
     list-style: none;
     gap: 50px;
     color: #797870;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 .nav-center:hover{
@@ -50,7 +52,7 @@ body{
     color: #ffffff;
     border: 2px solid #0C8BFD;
     font-size: 15px;
-    font-weight: 545;
+    font-weight: 600;
 }
 .login-btn:hover{
     cursor: pointer;
