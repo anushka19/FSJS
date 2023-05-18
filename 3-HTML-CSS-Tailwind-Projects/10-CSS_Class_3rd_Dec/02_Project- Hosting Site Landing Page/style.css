@@ -403,3 +403,357 @@ body{
     background-color: #ffffff;
     color: #292828;
 }
+
+
+/* fifthhhhhhhh##### */
+
+/* for 5th div...arrows and cards */
+.fifth{
+    padding-top: 60px;
+    padding-bottom: 80px;
+    padding-inline: 120px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.fifth-text{
+    color: white;
+    font-size: 70px;
+    font-weight: 500;
+    text-align: center;
+    width: 60%;
+    /* height: 200px; */
+}
+.arrows{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    /* height: 200px; */
+}
+.left-arrow{
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+.right-arrow{
+    position: relative;
+    top: 20px;
+    right: 40px;
+}
+.cards{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card-one , .card-three{
+    border-radius: 30px;
+    width:20%;
+    height: 550px;
+    color: #000000;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+
+.card-one-text{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+}
+.amount{
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+}
+.amount-1{
+    font-size: 18px;
+    font-weight: 500;
+    color: grey;
+}
+.amount-2{
+    font-size: 18px;
+    font-weight: 500;
+    color: darkgray;
+}
+.small-text{
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+}
+.small-text-2{
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+}
+.icon{
+    margin-right: 20px;
+}
+.card-btn-1{
+    margin-top: 20px;
+    color: white;
+    background-color: #0c8bfd;
+    width: 90%;
+    height: 40px;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+}
+.card-btn-1:hover{
+    color: white;
+    background-color:black;
+    cursor: pointer;
+}
+.hr{
+    width:90%;
+    text-align:left;
+    margin-left:0
+}
+.card-two{
+    border-radius: 30px;
+    /* width:350px; */
+    width:20%;
+    height: 550px;
+    background-color: #0c8bfd;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.card-btn-2{
+    margin-top: 20px;
+    color: #0c8bfd;
+    background-color:white;
+    width: 90%;
+    height: 40px;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+}
+.card-btn-2:hover{
+    color:white ;
+    background-color:black;
+    cursor: pointer;
+    border: none;
+}
+
+/* for 6th div */
+.sixth{
+    padding-top: 100px;
+    padding-bottom: 60px;
+    padding-inline: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #ffffff;
+}
+.sixth-2{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* gap: 2px; */
+}
+.black-div{
+    /* padding-top: 30px; */
+    border-radius: 30px;
+    height: 400px;
+    width: 30%;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.white-div{
+    /* padding-top: 30px; */
+    border-radius: 30px;
+    border: 1px solid black;
+    /* margin-left: 100px; */
+    height: 400px;
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.comment{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.star{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.stars{
+    padding-right: 10px;
+}
+.sixth-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.sixth-1-text{
+    color: black;
+    width: 30%;
+    font-size: 65px;
+    font-weight: 600;
+    
+}
+.sixth-text-2{
+    color: gray;
+    width: 30%;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    top: 60px;
+}
+.name-1 , .designation , .text-sixth{
+    color: white;
+}
+.name-1, .name-2{
+    font-size: 18px;
+    font-weight: 500;
+}
+.name-2 , .designation-2 , .text-sixth-2{
+    color: black;
+}
+.designation , .designation-2 {
+    margin-top: -35px;
+    font-size: 13px;
+    font-weight: 300;
+}
+.text-sixth , .text-sixth-2{
+    font-size: 20px;
+    font-weight: 400;
+}
+.btn-last-blue{
+    padding-inline: 80px;
+    background-color:#0c8bfd;
+    width: 20%;
+    height: 10px;
+    border-radius: 10px;
+    border: none;
+    right: -50px;
+}
+.btn-last-grey{
+    padding-inline: 80px;
+    background-color:whitesmoke;
+    width: 55%;
+    height: 10px;
+    border-radius: 10px;
+    position: relative;
+    top: 0px;
+    left: -20px;
+    border: none;
+}
+.last{
+    width: 130%;
+}
+.seventh{    
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-inline: 110px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.seventh-1{
+    color: white;
+    width: 70%;
+    font-size: 70px;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    left: 300px;
+}
+.seventh-2{
+    background-color: #292828;
+    margin-top: 80px;
+    padding-top: 40px;
+    padding-inline: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 30px;
+    height: 100px;
+    width: 95%;
+}
+.name , .email , .password{
+    border-radius: 50px;
+    background-color:#3E3D3D;
+    /* border: 1px solid #292828; */
+    color: white;
+    width: 20%;
+    height: 50px;
+    padding-inline: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+}
+.btn-signup{
+    width: 10%;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #0c8bfd;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid #0c8bfd;
+}
+.btn-signup:hover{
+    background-color: white;
+    color:#0c8bfd ;
+    cursor: pointer;    
+}
+.seventh-lists{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    
+}
+.ul-lists{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer;
+    height: 100%;
+    list-style-type: none;
+}
+.hr-2{
+    width:95%;
+    text-align:left;
+    margin-left:0
+}
+.heading{
+    font-size: 25px;
+    font-weight: 300;
+    padding-bottom: 25px;
+}
+.heading:hover{
+    text-decoration:underline;
+}
