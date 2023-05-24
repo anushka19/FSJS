@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog Web App</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  
+
+  <div id="blog">
+    
+    <input type="text" id="title" placeholder="Blog Title" /> 
+    
+    <textarea id="content" placeholder="Start writing here"></textarea>
+    <br>
+    <br>
+    <button id="publish" onclick="createPost()">Publish</button>
+    <br>
+    <br>
+  </div>
+
+  <div id="blog-posts">
+    <h2>Recent Posts</h2>
+   
+    <ul id="post-list"></ul>
+    
+  </div>
+
+  <script async src="./script.js"></script>
+</body>
+</html>
