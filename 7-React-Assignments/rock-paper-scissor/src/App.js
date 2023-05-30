@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import {GiRock, GiHand, GiScissors} from "react-icons/gi"
+//import {GiRock, GiHand, GiScissors} from "react-icons/gi"
 import {FaHandRock, FaHandScissors} from "react-icons/fa"
 import {IoMdHand} from "react-icons/io"
 ///*
