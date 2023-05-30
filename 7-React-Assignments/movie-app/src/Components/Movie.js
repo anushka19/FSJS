@@ -2,8 +2,6 @@ import React, { createContext, useContext, useRef } from "react";
 import { Outlet, useNavigate } from "react-router-dom";
 import { MyContext } from "./Search";
 
-// import { toast, ToastContainer } from 'react-toastify';
-// import "react-toastify/dist/ReactToastify.css";
 
 export const MyContext2 = createContext();
 
@@ -13,10 +11,9 @@ const Movie = () => {
   const navigate = useNavigate();
 
   const { details } = useContext(MyContext);
-  // const { moviedetails } = useContext(MyContext);
-
-  const handlemoredetails = () => {
-    navigate("moviemoredetails");
+  
+  const handlemoviedetails = () => {
+    navigate("moviedetails");
     ref.current?.scrollIntoView({ behavior: "smooth" });
     
   };
@@ -33,7 +30,7 @@ const Movie = () => {
           className=" rounded-lg py-7 mt-10 flex flex-col justify-items-center"
         >
           <img
-            onClick={handlemoredetails}
+            onClick={handlemoviedetails}
             alt="Movie Poster"
             src={details.Poster}
             className="rounded-2xl hover:scale-95 hover:cursor-pointer"
@@ -43,7 +40,7 @@ const Movie = () => {
             {details.Title}
           </p>
           <button
-            onClick={handlemoredetails}
+            onClick={handlemoviedetails}
             className="text-md text-sky-700 font-semibold mt-5 hover:scale-95 rounded-lg bg-white p-1"
           >
             MORE DETAILS

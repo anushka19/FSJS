@@ -78,7 +78,7 @@ const Search = () => {
     setDetails(details);
     SetMovieList(false);
 
-    navigate("movie/moviemoredetails");
+    navigate("movie/moviedetails");
   }
 
   const handlesubmit = async () => {

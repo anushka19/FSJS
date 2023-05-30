@@ -236,27 +236,27 @@ body{
 
 /* ############## */
 
-.second{
+/* .second{
     padding-top: 40px;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap; 
 }
 .second-1{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     width: 100%;
-    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap; 
 }
 .get{
     color: white;
     background-color: #F4694C;
     width: 20%;
     height: 70%;
-    /* margin-left: 20px; */
+    /* margin-left: 20px; 
     font-size: 19px;
 }
 .get:hover{
@@ -267,9 +267,9 @@ body{
 }
 .learn{
     color: white;
-    /* width: 70px; */
+    /* width: 70px; 
     height: 70%;
-    /* width: 15%; */
+    /* width: 15%; 
     width: 18%;
     border: 1px solid white;
     background:none;
@@ -289,22 +289,22 @@ body{
     width: 50px;
     right: 220px;
     backdrop-filter: blur(8px);
-    /* cursor: pointer; */
+    /* cursor: pointer; 
     z-index: 1;
-    /* background-color: gray; */
+    /* background-color: gray; 
 }
 .playbutton:hover{
     cursor: pointer;
-    /* transform: scale(1.3); */
+    /* transform: scale(1.3); 
 }
 .king{
     /* position: relative;
-    right: 90px; */
+    right: 90px; 
     margin-right: 110px;
-    /* flex-grow: 20; */
+    /* flex-grow: 20; 
 }
 .king-text{
-    /* width: 30%; */
+    /* width: 30%; 
     color: white;
     font-weight: 400;
     font-size: 20px;
@@ -313,9 +313,10 @@ body{
     position: relative;
     top: -20px;
     left: 330px;
-}
+} */
+
 /* 2nd div */
-.second-div{
+.second{
     background-color: white;
     /* padding-top: 40px; */
     padding-bottom: 30px;

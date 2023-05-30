@@ -407,10 +407,10 @@ body{
 }
 
 
-/* fifthhhhhhhh##### */
 
-/* for 5th div...arrows and cards */
-.fifth{
+
+/* 4th div.*/
+.section-4{
     padding-top: 60px;
     padding-bottom: 80px;
     padding-inline: 120px;
@@ -418,7 +418,7 @@ body{
     display: flex;
     flex-direction: column;
 }
-.fifth-text{
+.four-text{
     color: white;
     font-size: 70px;
     font-weight: 500;
@@ -449,7 +449,7 @@ body{
     flex-direction: row;
     justify-content: space-around;
 }
-.card-one , .card-three{
+.card-1 , .card-3{
     border-radius: 30px;
     width:20%;
     height: 550px;
@@ -465,7 +465,7 @@ body{
 }
 
 
-.card-one-text{
+.card-1-text{
     color: black;
     font-size: 30px;
     font-weight: 600;
@@ -519,7 +519,7 @@ body{
     text-align:left;
     margin-left:0
 }
-.card-two{
+.card-2{
     border-radius: 30px;
     /* width:350px; */
     width:20%;
@@ -551,8 +551,8 @@ body{
     border: none;
 }
 
-/* for 6th div */
-.sixth{
+/* 5th block*/
+.section-5{
     padding-top: 100px;
     padding-bottom: 60px;
     padding-inline: 100px;
@@ -561,7 +561,7 @@ body{
     align-items: flex-start;
     background-color: #ffffff;
 }
-.sixth-2{
+.five-2{
     padding-top: 40px;
     display: flex;
     flex-direction: row;
@@ -607,19 +607,19 @@ body{
 .stars{
     padding-right: 10px;
 }
-.sixth-1{
+.five-1{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.sixth-1-text{
+.five-1-text{
     color: black;
     width: 30%;
     font-size: 65px;
     font-weight: 600;
     
 }
-.sixth-text-2{
+.five-text-2{
     color: gray;
     width: 30%;
     font-size: 20px;
@@ -627,14 +627,14 @@ body{
     position: relative;
     top: 60px;
 }
-.name-1 , .designation , .text-sixth{
+.name-1 , .designation , .text-five{
     color: white;
 }
 .name-1, .name-2{
     font-size: 18px;
     font-weight: 500;
 }
-.name-2 , .designation-2 , .text-sixth-2{
+.name-2 , .designation-2 , .text-five-2{
     color: black;
 }
 .designation , .designation-2 {
@@ -642,7 +642,7 @@ body{
     font-size: 13px;
     font-weight: 300;
 }
-.text-sixth , .text-sixth-2{
+.text-five , .text-five-2{
     font-size: 20px;
     font-weight: 400;
 }
@@ -669,7 +669,9 @@ body{
 .last{
     width: 130%;
 }
-.seventh{    
+
+/* 6th block */
+.section-6{    
     padding-top: 50px;
     padding-bottom: 30px;
     padding-inline: 110px;
@@ -678,7 +680,7 @@ body{
     flex-direction: column;
     align-items: flex-start;
 }
-.seventh-1{
+.six-1{
     color: white;
     width: 70%;
     font-size: 70px;
@@ -687,7 +689,7 @@ body{
     position: relative;
     left: 300px;
 }
-.seventh-2{
+.six-2{
     background-color: #292828;
     margin-top: 80px;
     padding-top: 40px;
@@ -726,7 +728,7 @@ body{
     color:#0c8bfd ;
     cursor: pointer;    
 }
-.seventh-lists{
+.six-lists{
     padding-top: 40px;
     padding-bottom: 30px;
     display: flex;

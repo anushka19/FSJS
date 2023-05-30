@@ -23,7 +23,7 @@ const MovieDetails = () => {
     navigate("/movie");
     ref2.current?.scrollIntoView({ behavior:  "smooth" });
   }
-  const handlehome=()=>{
+  const handlemain=()=>{
     SetMovieList(true);
     navigate("/");
     ref3.current?.scrollIntoView({ behavior: "smooth" });
@@ -108,7 +108,7 @@ const MovieDetails = () => {
         LESS
       </button>
       <button 
-      onClick={handlehome}
+      onClick={handlemain}
       className="bg-white text-2xl p-2 ml-10 hover:scale-95 rounded-lg">
         <FaHome/>
       </button>

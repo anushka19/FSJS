@@ -1,30 +1,29 @@
 import React, { useState } from "react";
-// import { MdSend } from "react-icons/md";
 import Axios from 'axios';
 import Home from "./Home";
 
 const Form = () => {
-  const [input, setInput] = useState("");
+  const [data, setData] = useState("");
   const [handle, setHandle] = useState(false);
-  const handleinput = (e) => {
+  const handledata = (e) => {
     e.preventDefault();
-    setInput(e.target.value);
+    setData(e.target.value);
   };
   const [details,setDetails]=useState({});
 
 //   let response={};
   const searchPokemonFunc=async(e)=>{
     e.preventDefault();
-    if(!input || input==="" || input===null){
+    if(!data || data==="" || data===null){
         alert("Please enter Pokemon Name or ID");
       }
-      const response = await Axios.get(`https://pokeapi.co/api/v2/pokemon/${input}`);
+      const response = await Axios.get(`https://pokeapi.co/api/v2/pokemon/${data}`);
     //   if(response.error){//if no dish found from API
     //     alert("No Pokemon Found.")
     //   }
     //   console.log(response?.data);
-      const data=response.data;
-      setDetails(data);
+      const content=response.data;
+      setDetails(content);
       setHandle(true);
   }
 
@@ -35,8 +34,8 @@ const Form = () => {
           className="h-10 w-500 text-xl text-slate-900 pl-50 rounded-lg "
           type="text"
           placeholder="Enter Pokemon Name/ID "
-          value={input}
-          onChange={handleinput}
+          value={data}
+          onChange={handledata}
           onKeyDown={(e) => (e.key === "Enter" && searchPokemonFunc(e))}
         />
         <button 

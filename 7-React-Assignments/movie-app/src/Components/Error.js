@@ -5,16 +5,16 @@ import { useNavigate } from 'react-router-dom';
 const Error = () => {
 
     const navigate=useNavigate();
-    const handleback=()=>{
+    const handleprev=()=>{
         navigate("/");
     }
   return (
     <>
         <div className='flex flex-col justify-center items-center mt-60 text-5xl text-black'>
-            <p>OOOOOOppppssss....No Page Found</p>
+            <p>Page Not Found</p>
             <button
             className='text-lg text-red-200 bg-black rounded-lg p-2 mt-16 hover:scale-95 hover:bg-blue-800 hover:text-white'
-            onClick={handleback}
+            onClick={handleprev}
             >Go To Search Page</button>
         </div>
 
