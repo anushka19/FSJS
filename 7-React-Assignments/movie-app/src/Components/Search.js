@@ -1,5 +1,5 @@
 import React, { createContext, useRef, useState, useEffect } from "react";
-import { BiSend } from "react-icons/bi";
+import { BiSearchAlt2 } from "react-icons/bi";
 import Axios from "axios";
 import { Outlet, useNavigate } from "react-router-dom";
 import { toast, ToastContainer } from "react-toastify";
@@ -145,10 +145,10 @@ const Search = () => {
           }}
         />
         <button
-          className="rounded-md p-3 text-2xl bg-blue-200 hover:cursor-pointer hover:scale-95"
+          className="rounded-md p-3 text-2xl hover:cursor-pointer hover:scale-95"
           onClick={handlesubmit}
         >
-          <BiSend />
+          <BiSearchAlt2 />
         </button>
       </div>
       <ToastContainer

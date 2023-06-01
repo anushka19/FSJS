@@ -1,5 +1,5 @@
 
-import { FaHome } from "react-icons/fa";
+import { FaPhotoVideo } from "react-icons/fa";
 
 const Home = () => {
     const handlemain=()=>{
@@ -14,11 +14,11 @@ return (
         <button
           onClick={handlemain}
           className="bg-white text-2xl p-2 ml-10 hover:scale-95 rounded-lg "
-        >
-          <FaHome />
+        > 
+          <FaPhotoVideo />
         </button>
         <p className="text-4xl text-sky-600 font-bold text-center">
-          Movie API using React JS
+          Movies
         </p>
        
 

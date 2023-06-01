@@ -36,8 +36,8 @@ const Movie = () => {
             className="rounded-2xl hover:scale-95 hover:cursor-pointer"
           ></img>
 
-          <p className="bg-gray-300 rounded-lg p-3 mt-5 text-4xl text-sky-950 font-semibold">
-            {details.Title}
+          <p className="text-center rounded-lg p-3 mt-5 text-4xl text-sky-950 font-semibold">
+           {details.Title}
           </p>
           <button
             onClick={handlemoviedetails}

@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { MyContext2 } from "./Movie";
 // import MovieDetails from "./MovieDetails";
 import { MyContext } from "./Search";
-import {FaHome} from 'react-icons/fa';
+import {FaPhotoVideo} from 'react-icons/fa';
 
 const MovieDetails = () => {
   const navigate=useNavigate();
@@ -84,7 +84,7 @@ const MovieDetails = () => {
             <p>Runtime</p>
           </div>
 
-          <div className="mt-5 mb-5 gap-2 text-2xl font-semibold flex flex-col items-center">
+          <div className="mt-5 mb-5 gap-2 text-2xl font-semibold flex flex-col items-center ">
             <p>{details.Released}</p>
             <p>{details.Genre}</p>
             <p>{details?.Type?.toUpperCase()}</p>
@@ -110,7 +110,7 @@ const MovieDetails = () => {
       <button 
       onClick={handlemain}
       className="bg-white text-2xl p-2 ml-10 hover:scale-95 rounded-lg">
-        <FaHome/>
+        <FaPhotoVideo/>
       </button>
       </div>
       {/* <ToastContainer></ToastContainer> */}

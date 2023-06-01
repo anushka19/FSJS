@@ -5,8 +5,7 @@ import Movie from "./Components/Movie";
 import Search from "./Components/Search";
 import MovieDetails from "./Components/MovieDetails";
 import Error from "./Components/Error";
-// import { ToastContainer } from "react-toastify";
-// import "react-toastify/dist/ReactToastify.css";
+
 
 const App = () => {
   return (
@@ -14,7 +13,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<><Home/><Search/></>}>
           <Route path="/movie" element={<Movie />} >
-            <Route path="moviemoredetails" element={<MovieDetails/>} />
+            <Route path="moviedetails" element={<MovieDetails/>} />
           </Route>
         </Route>
         <Route path="*" element={<Error/>}></Route>
