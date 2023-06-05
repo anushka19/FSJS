@@ -1,6 +1,6 @@
-# Q4. Resume using HTML
+# Q10. Table
 
-This is a project using HTML. It's a simple resume using HTML
+This is a project using HTML. We are using table tags.
 
 <br>
 
@@ -17,6 +17,6 @@ This is a project using HTML. It's a simple resume using HTML
 <br>
 
 ## Screenshots
-![Page](./resume.JPG)
+![Page](./table.JPG)
 
 <br>

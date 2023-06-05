@@ -1,6 +1,6 @@
-# Q4. Resume using HTML
+# Q8. Periodic Table
 
-This is a project using HTML. It's a simple resume using HTML
+This is a project using HTML. We are using table tags.
 
 <br>
 
@@ -12,11 +12,12 @@ This is a project using HTML. It's a simple resume using HTML
 
 ## Tech Stacks
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) 
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 
 <br>
 
 ## Screenshots
-![Page](./resume.JPG)
+![Page](./periodic-table.JPG)
 
 <br>
