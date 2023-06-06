@@ -38,15 +38,15 @@
 
 <br>
 
-### Q1. and Q16. Todo App [Todo App Link](), [Code Link]()
+### Q1. and Q16. Todo App [Todo App Link](https://todo-app-anushka19.netlify.app/), [Code Link](https://github.com/anushka19/FSJS/tree/main/8-Interview-Assignments/4-React-Questions/1-16-todo-redux)
 
 ### Q9. Context API Light and Dark Mode [Light & Dark Mode Link](https://light-and-dark-mode-anushka19.netlify.app/), [Code Link](https://github.com/anushka19/FSJS/tree/main/8-Interview-Assignments/4-React-Questions/9-Light-Dark-Mode/dark-light-theme-app)
 
-### Q12. Counter App [Counter Link](), [Code Link]()
+### Q12. Counter App [Counter Link](https://counter-app-anushka19.netlify.app/), [Code Link](https://github.com/anushka19/FSJS/tree/main/8-Interview-Assignments/4-React-Questions/12-counter-app-new)
 
 ### Q13. Calculator App [Calculator App Link](https://calculator-app-anushka19.netlify.app/), [Code Link](https://github.com/anushka19/FSJS/tree/main/8-Interview-Assignments/4-React-Questions/13-Calculator/calculator-app)
 
-### Q12. Tic Tac Toe [Tic Tac Toe App Link](), [Code Link]()
+### Q12. Tic Tac Toe [Tic Tac Toe App Link](https://tic-tac-toe-app-anushka19.netlify.app/), [Code Link](https://github.com/anushka19/FSJS/tree/main/8-Interview-Assignments/4-React-Questions/14-tic-tac-toe)
 
 <br>
 
