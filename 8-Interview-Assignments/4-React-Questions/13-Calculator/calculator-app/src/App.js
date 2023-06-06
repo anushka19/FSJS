@@ -11,7 +11,7 @@ function App() {
 
   const handleCalculate = () => {
     try {
-      const calculatedResult = eval(result);
+      const calculatedResult = (result);
       setResult(calculatedResult.toString());
     } catch (error) {
       setResult('Error');
