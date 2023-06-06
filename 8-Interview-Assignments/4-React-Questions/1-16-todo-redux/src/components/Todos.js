@@ -4,8 +4,8 @@ import { useSelector, useDispatch } from "react-redux";
 import {
   addTodo,
   removeTodo,
-  removeAll,
-  updateTodo,
+  removeAll
+  
 } from "../features/todoSlice";
 import { useState } from "react";
 import { FaTrash } from "react-icons/fa";
