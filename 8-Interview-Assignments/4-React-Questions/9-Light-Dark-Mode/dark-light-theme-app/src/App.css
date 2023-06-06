@@ -1,37 +1,79 @@
-/* App.css */
+/* General Styles */
 
-body {
-  font-family: Arial, sans-serif;
-  /* transition:  0.3s, color 0.3s; */
+
+.bg {
+  height: 100vh;
+  padding: 50px;
+  overflow: hidden;
+  transition: 0.2s all linear;
+  text-align: center;
 }
 
-.dashboard {
-  padding: 20px;
+.heading {
+  text-transform: uppercase;
+  transition: 0.2s all linear;
+  text-align: center;
 }
 
-.dashboard h1 {
-  color: #333;
-}
 
-.dashboard p {
-  color: #555;
-}
 
-.dashboard button {
-  padding: 10px 20px;
-  background-color: #555;
-  color: #fff;
+.btn {
   border: none;
+  padding: 10px 30px;
+  border-radius: 4px;
+  margin-top: 20px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.2s all linear;
+  margin-right: 50px;
+  text-align: center;
+  
+}
+
+.para {
+  width: 70vw;
+  transition: 0.2s all linear;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: left;
+}
+
+/* Light Mode Styles */
+
+.bg-light {
+  background-color: #fff;
+}
+
+.heading-light {
+  color: #222;
+}
+
+.para-light {
+  color: #222;
+}
+
+.btn-light {
+  background-color: #222;
+  color: #fff;
+  font-size: 15px;
   cursor: pointer;
 }
 
-/* Dark theme styles */
-.dark {
-  background-color: #333;
+/* Dark Mode Styles */
+
+.bg-dark {
+  background-color: #222;
+}
+
+.heading-dark {
   color: #fff;
 }
 
-.dark button {
+.para-dark {
+  color: #fff;
+}
+
+.btn-dark {
   background-color: #fff;
-  color: #333;
+  color: #222;
+
 }

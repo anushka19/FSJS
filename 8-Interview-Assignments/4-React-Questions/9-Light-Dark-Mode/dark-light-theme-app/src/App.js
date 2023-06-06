@@ -1,53 +1,30 @@
-import React, { createContext, useContext, useState } from 'react';
-//import './App.css'
-// Create a ThemeContext to manage the theme state
-const ThemeContext = createContext();
+import React, { useContext } from "react";
+import { ThemeContext } from "./ThemeContext";
+import SwitchButton from "./Button";
+import "./App.css";
 
-// Custom hook to access the theme context
-const useTheme = () => useContext(ThemeContext);
-
-// Component to provide the theme context
-const ThemeProvider = ({ children }) => {
-  const [theme, setTheme] = useState('light');
-
-  // Function to toggle the theme
-  const toggleTheme = () => {
-    setTheme(prevTheme => (prevTheme === 'light' ? 'dark' : 'light'));
-  };
-
-  // Create the theme context value
-  const themeContextValue = {
-    theme,
-    toggleTheme,
-  };
-
+function App() {
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
   return (
-    <ThemeContext.Provider value={themeContextValue}>
-      {children}
-    </ThemeContext.Provider>
-  );
-};
-
-// Dashboard component
-const Dashboard = () => {
-  const theme = useTheme();
-
-  return (
-    <div className={`dashboard ${theme}`}>
-      <h1>Welcome to the Dashboard</h1>
-      <p>This is a sample dashboard with a theme toggle button.</p>
-      <button onClick={theme.toggleTheme}>Toggle Theme</button>
+    <div className={`bg ${darkMode ? "bg-dark" : "bg-light"}`}>
+      <h1 className={`heading ${darkMode ? "heading-dark" : "heading-light"}`}>
+        {darkMode ? "Dark Mode" : "Light Mode"}
+      </h1>
+      <p className={`para ${darkMode ? "para-dark" : "para-light"}`}>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Sed tempus urna et pharetra pharetra massa massa ultricies. Id porta nibh venenatis cras sed felis
+        eget velit. A diam sollicitudin tempor id eu. Tincidunt arcu non sodales neque sodales ut etiam sit. Eu
+        scelerisque felis imperdiet proin fermentum. Faucibus a pellentesque sit amet porttitor. Laoreet id donec
+        ultrices tincidunt arcu non sodales neque. Rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi
+        cras. Sollicitudin tempor id eu nisl nunc. Eget velit aliquet sagittis id consectetur purus ut. Cras pulvinar
+        mattis nunc sed blandit libero volutpat. Amet consectetur adipiscing elit pellentesque habitant morbi tristique
+        senectus et. Sed ullamcorper morbi tincidunt ornare massa. Et egestas quis ipsum suspendisse ultrices gravida
+        
+      </p>
+      <SwitchButton />
     </div>
   );
-};
-
-// App component
-const App = () => {
-  return (
-    <ThemeProvider>
-      <Dashboard />
-    </ThemeProvider>
-  );
-};
+}
 
 export default App;

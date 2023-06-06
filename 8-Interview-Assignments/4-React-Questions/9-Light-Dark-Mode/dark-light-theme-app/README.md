@@ -1,8 +1,7 @@
-# Getting Started with Create React App
+# Q9. Context API - Dark & Light Mode 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+We used context api. We used reducers along with context api.
 
-It
 ## Available Scripts
 
 In the project directory, you can run:
@@ -15,7 +14,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-## Deployed Link: [Todo App]()
+## Deployed Link: [Click Here]()
 
 
 <br>
@@ -29,8 +28,13 @@ You may also see any lint errors in the console.
 
 ## Screenshots
 
+Light Mode:
 
-![Page1](./todo.JPG)
+![Page1](./../light.JPG)
+
+Dark Mode:
+
+![Page2](./../dark.JPG)
 
 
 <br>
