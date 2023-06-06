@@ -4,9 +4,8 @@ This is a project using HTML. It's a simple resume using HTML
 
 <br>
 
-## Deployed Link: [Click Here]()
+## Deployed Link: [Resume Link](https://resume-anushka19.netlify.app/)
 
-###  🔸 Site works best on 24-Inch monitor. Site is not responsive.
 
 <br>
 

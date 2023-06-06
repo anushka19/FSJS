@@ -4,9 +4,8 @@ This is a project using HTML. We are using iput tags and listtags.
 
 <br>
 
-## Deployed Link: [Click Here]()
+## Deployed Link: [Click Here](https://html-code-basics-anushka19.netlify.app/)
 
-###  🔸 Site works best on 24-Inch monitor. Site is not responsive.
 
 <br>
 

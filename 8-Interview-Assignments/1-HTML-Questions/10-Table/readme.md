@@ -4,8 +4,6 @@ This is a project using HTML. We are using table tags.
 
 <br>
 
-## Deployed Link: [Click Here]()
-
 ###  🔸 Site works best on 24-Inch monitor. Site is not responsive.
 
 <br>
