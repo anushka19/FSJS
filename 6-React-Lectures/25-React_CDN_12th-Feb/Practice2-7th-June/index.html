@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reac Lec1</title>
+    <style>
+        .header{
+            color: aqua;
+            border: 20px solid pink;
+        }
+    </style>
 </head>
 <body>
     <div class="root">Not rendering</div>
@@ -17,24 +23,31 @@
     <script type="text/babel">
 
             const rootElement = document.querySelector(".root") //where - the root element
+
+            //const csss = {border: "2px solid pink", backgroundColor: "yellow"}
+
             //component 1
             //key: value - for css {} - to insert something {{}} - means anothe rone for key value pair
-            const header = (
-                <div style = {{border: "2px solid black", color: "red"}}>
+            //style = {{border: "2px solid black", color: "red"}}
+            const Header = (
+                
+                //there's already a class in js pre exsisting keyword
+                <div className="header">
                     <h1>Hello</h1>
                     <p>Hello Namaste</p>
                 </div> //what - which element
             );
                 
              //component 2
-            const main = (
-                <main>
+             //style={csss}
+            const Main = (
+                <main >
                     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eaque veniam nobis atque tempora quis.</p>
                 </main>
                 );
 
              //component 3
-            const footer = (
+            const Footer = (
                 <footer>
                     <p> Copyright @ 2023</p>
                 </footer>
@@ -42,13 +55,13 @@
 
             // as it cannot take 3 names header,main and footer we combine in onee
             // to insert JSX inside another element we use 2 curly brackets {{}}, 
-            const app = //here we use react fragment
+            const App = //here we use react fragment
             <> 
-                {header} {main} {main} {main} {main} {main}  {footer}
+                {Header} {Main} {Main} {Main} {Main} {Main}  {Footer}
             </>    
             
 
-            ReactDOM.render(app,rootElement) //what, where
+            ReactDOM.render(App,rootElement) //what, where
 
     </script>
 
