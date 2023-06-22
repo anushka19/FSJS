@@ -22,3 +22,5 @@ const Provider = props => {
         </PackageContext.Provider>
     )
 }
+
+export default Provider;
